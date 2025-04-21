@@ -5,7 +5,6 @@ from AbstractiveSummarizer import AbstractiveSummarizer
 from SummaryEvaluator import SummaryEvaluator
 
 def test_preprocessor():
-    """Test the text preprocessor"""
     print("\n=== Testing TextPreprocessor ===")
     preprocessor = TextPreprocessor()
     
@@ -17,7 +16,6 @@ def test_preprocessor():
     return preprocessor
 
 def test_extractive_summarizer(preprocessor=None):
-    """Test the extractive summarizer"""
     print("\n=== Testing ExtractiveSummarizer ===")
     if preprocessor is None:
         preprocessor = TextPreprocessor()
@@ -44,7 +42,6 @@ def test_extractive_summarizer(preprocessor=None):
     return summarizer
 
 def test_abstractive_summarizer():
-    """Test the abstractive summarizer"""
     print("\n=== Testing AbstractiveSummarizer ===")
     summarizer = AbstractiveSummarizer()
     
