@@ -21,8 +21,8 @@ A comprehensive text summarization tool that provides both extractive and abstra
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/text-summarization-tool.git
-cd text-summarization-tool
+git clone https://github.com/MostafaShams5/Text-Summarization.git
+cd Text-Summarization
 ```
 
 2. Install dependencies:
@@ -79,7 +79,6 @@ The abstractive summarizer uses a fine-tuned version of facebook/bart-large-cnn.
 
 ## Future Improvements
 
-- Add more embedding methods for extractive summarization
 - Support for more languages
 - Implement more summarization algorithms
 - Enhanced UI with summary comparisons
